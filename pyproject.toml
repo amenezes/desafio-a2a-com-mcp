@@ -1,0 +1,12 @@
+[project]
+name = "desafio-a2a-com-mcp"
+version = "1.0.0"
+description = "A Ponte: servidor MCP de salas e agente A2A que o consome (sem LLM)"
+requires-python = ">=3.12"
+dependencies = [
+    "httpx==0.28.1",
+    "mcp==2.3.0",
+    "pydantic==2.13.5",
+    "starlette==1.7.0",
+    "uvicorn==0.54.0",
+]
